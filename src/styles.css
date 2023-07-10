@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 300px;
+  height: 35px;
+  word-wrap: break-word;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+}
+
+.edit-container {
+  display: flex;
+  gap: 20px;
+}
+
+.tick-button {
+  background-color: white;
+  border: 0px;
+  font-size: 20px;
+}
